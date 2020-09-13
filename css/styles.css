@@ -41,13 +41,13 @@ body {
     background-image: linear-gradient(135deg, rgba(255, 246, 247, 0.6), rgba(255, 255, 255, 0.6)), url(./../images/bg-pattern-desktop.svg);
     background-size: cover;
     overflow: hidden; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__body {
         width: 100%;
         padding: 30px; } }
   .banner__header {
     height: 27%; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__header {
         height: 10%; } }
   .banner__logo {
@@ -56,13 +56,13 @@ body {
     height: 50px; }
     .banner__logo img {
       max-width: 100%; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__logo {
         width: 100px;
         height: 25px; } }
   .banner__content {
     height: 73%; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__content {
         height: 90%;
         padding-top: 32vh; } }
@@ -75,7 +75,7 @@ body {
     .banner__title span {
       color: #ce9797;
       font-weight: 300; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__title {
         font-size: 44px;
         text-align: center;
@@ -86,7 +86,7 @@ body {
     letter-spacing: 2px;
     line-height: 1.2;
     margin-bottom: 50px; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__text {
         font-size: 15px;
         text-align: center;
@@ -97,7 +97,7 @@ body {
     width: 40%;
     height: 100vh;
     background: url(./../images/hero-desktop.jpg) top/cover; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .banner__image {
         position: absolute;
         background: url(./../images/hero-mobile.jpg) top/cover;
@@ -139,10 +139,10 @@ body {
       font-weight: 300;
       font-size: 18px;
       line-height: 1; }
-      @media (max-width: 767.9px) {
+      @media screen and (max-width: 767.9px) and (min-height: 600px) {
         .form__input::placeholder {
           font-size: 16px; } }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .form__input {
         padding: 15px 22px;
         font-size: 16px;
@@ -156,7 +156,7 @@ body {
     outline: none;
     box-shadow: 0 12px 10px 0px rgba(238, 140, 140, 0.3);
     transition: all 0.3s ease 0s; }
-    @media (max-width: 767.9px) {
+    @media screen and (max-width: 767.9px) and (min-height: 600px) {
       .form__button {
         width: 70px; } }
   .form__message {
